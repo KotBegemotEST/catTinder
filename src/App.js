@@ -1,25 +1,33 @@
 import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter, Route, Routes } from "react-router-dom";
+import Forgot from "./components/Forgot"
+import Login from "./components/Login"
+import Searching from "./Searching"
+import Profiil from "./Profiil"
+import Message from "./components/Message"
 
 function App() {
   return (
-    
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    // <div className="App">
+    //   <header className="App-header">
+    //     <img src={logo} className="App-logo" alt="logo" />
+    //     <p>
+    //       Edit <code>src/App.js</code> and save to reload.
+    //     </p>
+    //   </header>
+    // </div>
+
+  <Routes>
+    <Route path="/"   element={<Login/>}/>
+    <Route path="/forgot"  element={<Forgot/>}/>
+    <Route path="/searching"  element={<Searching/>}/>
+    <Route path="/Profiil"  element={<Profiil/>}/>
+    <Route path="/Message"  element={<Message/>}/>
+  </Routes> 
+
+
   );
 }
 

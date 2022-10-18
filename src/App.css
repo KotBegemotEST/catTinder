@@ -54,6 +54,44 @@
   pointer-events: none;
 }
 
+
+
+/* Login page css */
+
+.pinkBox{
+width: 300px;
+height: 500px;
+padding: 50px;
+background-color: #F9D6E5;
+margin: 0 auto;
+}
+
+
+.pinkBox .icon{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.pinkBox input{
+  width: 100%;
+  border: 1px solid #F98EBC;
+  padding: 12px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+
+}
+
+.pinkBox  input::placeholder {
+  
+  font-weight: bold;
+  color: #F98EBC;
+  font-weight: 600;
+
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

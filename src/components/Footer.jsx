@@ -1,20 +1,21 @@
 import inst from '../img/instagram.png';
 import fb from '../img/facebook.png';
+import { Link } from 'react-router-dom';
 
 
 export default function Footer(){
     return (
         <footer className="footer">
             <div className="email">
-                <a href="#">cat@cattinder.com</a>
+                {/* <Link>cat@cattinder.com</Link> */}
             </div>
             <div className="social">
-                <a href="#" className="fb">
+                {/* <Link  to={"#"} className="fb">
                     <img src={fb} alt="facebook logo" />
-                </a>
-                <a href="#" className="inst">
+                </Link>
+                <Link  to={"#"} className="inst">
                     <img src={inst} alt="instagram logo" />
-                </a>
+                </Link> */}
             </div>
         </footer>
     )

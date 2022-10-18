@@ -2,6 +2,53 @@
   text-align: center;
 }
 
+
+.header{
+  display: flex;
+  background-color: #F9D6E5;
+}
+
+.header div{
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.header h1{
+  text-align: center;
+  font-size: 24px;
+  color: #F98EBC;
+}
+
+.footer{
+  background-color: #F9D6E5;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 25px;
+}
+
+.footer .social a{
+  width: 25px;
+  height: 25px;
+}
+
+.fb{
+  padding-right: 25px;
+}
+
+.footer .social a img{
+  width: 25px;
+}
+
+.footer .email a{
+  color: #F98EBC;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

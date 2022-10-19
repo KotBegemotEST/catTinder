@@ -1,8 +1,10 @@
-export default function Cart(){
+import '../App.css';
+
+export default function Cart(data){
     return (
-    <div className="Cat">
-        <img src="#" alt="" />
-        <span className="catName"></span>
+    <div className="сat">
+        <img src= {data.data.imgPath} alt="" />
+        <span className="catName"> {data.data.name} </span>
     </div>
     )
  }

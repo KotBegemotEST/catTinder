@@ -1,3 +1,17 @@
+body{
+  height: 100vh;
+}
+
+#root{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+
 .App {
   text-align: center;
 }
@@ -34,6 +48,20 @@
   height: 25px;
 }
 
+.inputs{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-bottom: 50px;
+}
+
+.paswd{
+  color: #F98EBC;
+  list-style: none;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .fb{
   padding-right: 25px;
 }
@@ -59,8 +87,6 @@
 /* Login page css */
 
 .pinkBox{
-width: 300px;
-height: 500px;
 padding: 50px;
 background-color: #F9D6E5;
 margin: 0 auto;
@@ -81,7 +107,105 @@ margin: 0 auto;
   padding: 12px;
   border-radius: 5px;
   margin-bottom: 25px;
+  box-sizing: border-box;
+}
 
+.buttons{
+  display: flex;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.buttons input{
+  width: auto;
+  margin: 0;
+}
+.buttonsWrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.searching, .button{
+  border: 1px solid #F98EBC;
+  padding: 10px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  border-radius: 5px;
+  font-size: 24px;
+  color: #F98EBC;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  list-style: none;
+}
+.toBack{
+  list-style: none;
+  text-decoration: none;
+  color: #F98EBC;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.buttonWrap{
+  text-align: center;
+}
+.buttonWrap .button{
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+textarea {
+  width: 100%;
+  height: 370px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #F98EBC;
+  border-radius: 5px;
+  background-color: #ffffff;
+  font-size: 16px;
+  resize: none;
+}
+
+textarea::placeholder {
+  font-weight: bold;
+  color: #F98EBC;
+}
+
+
+.buttons label{
+
+  color: #F98EBC;
+  list-style: none;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.сat, .back{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  width: 220px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.back{
+  padding: 15px;
+}
+
+
+.catName{
+  margin-top: 15px;
+  font-size: 24px;
+  padding: 25px;
 }
 
 .pinkBox  input::placeholder {
@@ -91,6 +215,36 @@ margin: 0 auto;
   font-weight: 600;
 
 }
+
+.pinkBox.sendler{
+  border: 1px solid #F98EBC;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pinkBox.sendler * {
+  color: #F98EBC;
+}
+.box-text
+{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+
+.subTitle{
+  font-weight: 700;
+}
+
+.stats{
+  text-align: left;
+  width: 100%;
+  margin: 0;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

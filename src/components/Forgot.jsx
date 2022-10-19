@@ -16,11 +16,11 @@ export default function Forgot(){
             <div>
                 <input type="text" placeholder='Sisesta meiliaadress' />
             </div>
-            <div>
-            <span>SAADA</span>
-            <Link to="/">Tagasi avalehele </Link>
+            <div className="buttonWrap">
+                <span className="button">SAADA</span>
+                <br />
+                <Link className="toBack" to="/">Tagasi avalehele </Link>
  
-           
             </div>
         </div>
 

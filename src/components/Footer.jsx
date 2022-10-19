@@ -7,15 +7,15 @@ export default function Footer(){
     return (
         <footer className="footer">
             <div className="email">
-                {/* <Link>cat@cattinder.com</Link> */}
+                <Link  to="#">cat@cattinder.com</Link>
             </div>
             <div className="social">
-                {/* <Link  to={"#"} className="fb">
+                <Link  to="#" className="fb">
                     <img src={fb} alt="facebook logo" />
                 </Link>
-                <Link  to={"#"} className="inst">
+                <Link  to="#" className="inst">
                     <img src={inst} alt="instagram logo" />
-                </Link> */}
+                </Link>
             </div>
         </footer>
     )

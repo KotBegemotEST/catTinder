@@ -1,5 +1,7 @@
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import logo from '../img/heart.png';
+// import './App.css';
+
 
 export default function Message(){
 let sendMsg = (msg)=>{
@@ -7,10 +9,9 @@ let sendMsg = (msg)=>{
 }
 
     return (
-        <div className="pinkBox">
-                <span className="box-text">KIRI ON SAADETUD!</span>
-                <Link to="/">  Tagasi </Link>
-            </div>
+        <div className="pinkBox sendler">
+            <span className="box-text">KIRI ON SAADETUD!</span>
+            <Link className="toBack" to="/profiil">  Tagasi </Link>
         </div>
     )
 }

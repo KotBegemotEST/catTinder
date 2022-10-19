@@ -13,17 +13,19 @@ export default function Login() {
             <div className="icon">
                 <img src={logo} alt="logo" />
             </div>
-            <div>
+            <div className='inputs'>
                 <input type="text" placeholder='Sisesta kasutajanimi' />
                 <input type="text" placeholder='Sisesta parool' />
-                <Link to="/Forgot"> Unustasin parooli </Link>
+                <Link  className='paswd' to="/Forgot"> Unustasin parooli </Link>
                 {/* <Link to="/Login"> Unustasin parooli </Link>  */}
 
             </div>
-            <div>
-                <input type="checkbox" id="autho" name="autho" defaultChecked={true} />
-                <label htmlFor="autho">Mäleta mind</label>
-                <span>LOGI SISSE</span>
+            <div className='buttonsWrap'>
+                <div className='buttons'>
+                    <input type="checkbox" id="autho" name="autho" defaultChecked={true} />
+                    <label htmlFor="autho">Mäleta mind</label>
+                </div>
+                <Link  className='searching' to="/Searching"> LOGI SISSE </Link>
 
    
 

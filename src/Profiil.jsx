@@ -12,7 +12,6 @@ let sendMsg = (msg)=>{
 
     return (
         <div className="pinkBox">
-            <span>profil</span>
             <div className="back">
                 <img className="item-img" src={img} alt="" />
                 <span className="catName"> TEST </span>
@@ -22,6 +21,8 @@ let sendMsg = (msg)=>{
             </p>
                 <Link to="/message" className="button">  SAADA KIRI </Link>
             </div>
+            <Link className="toBack"  to="/searching">  Tagasi </Link>
+
         </div>
     )
  }

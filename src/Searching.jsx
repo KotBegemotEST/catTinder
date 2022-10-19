@@ -15,11 +15,14 @@ export default function Searching(){
         name: 'Kitty9'
         }
       ];
-    return (
 
+      const listItems = cats.map((cat) =>
+      <Cart  data={cat} />
+    );
+
+    return (
         <div className="pinkBox">
-            <Cart data={cats[0]}/>
-            <Cart data={cats[1]}/>
+            {listItems}
         </div>
     )
 

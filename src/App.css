@@ -91,6 +91,10 @@ padding: 50px;
 background-color: #F9D6E5;
 margin: 0 auto;
 }
+a{
+  list-style: none;
+  text-decoration: none;
+}
 
 
 .pinkBox .icon{
@@ -147,6 +151,9 @@ margin: 0 auto;
   color: #F98EBC;
   font-size: 16px;
   font-weight: 700;
+  width: 100%;
+  text-align: center;
+  display: block;
 }
 
 .buttonWrap{
@@ -160,7 +167,7 @@ margin: 0 auto;
 
 textarea {
   width: 100%;
-  height: 370px;
+  height: 250px;
   padding: 12px 20px;
   box-sizing: border-box;
   border: 2px solid #F98EBC;
@@ -206,6 +213,7 @@ textarea::placeholder {
   margin-top: 15px;
   font-size: 24px;
   padding: 25px;
+  color: black;
 }
 
 .pinkBox  input::placeholder {

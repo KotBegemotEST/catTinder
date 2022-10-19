@@ -4,7 +4,7 @@ export default function Header(){
     return (
         <header className="header">
             <div>
-                <Link to="/"> <h1> CAT TINDER</h1> </Link>
+                <Link to="/catTinder.github.io/"> <h1> CAT TINDER</h1> </Link>
             </div>
         </header>
     )

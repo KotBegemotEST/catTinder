@@ -21,7 +21,7 @@ let sendMsg = (msg)=>{
             </p>
                 <Link to="/message" className="button">  SAADA KIRI </Link>
             </div>
-            <Link className="toBack"  to="/searching">  Tagasi </Link>
+            <Link className="toBack"  to="/catTinder.github.io/searching">  Tagasi </Link>
 
         </div>
     )

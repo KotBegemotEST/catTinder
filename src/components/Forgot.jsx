@@ -19,7 +19,7 @@ export default function Forgot(){
             <div className="buttonWrap">
                 <span className="button">SAADA</span>
                 <br />
-                <Link className="toBack" to="/">Tagasi avalehele </Link>
+                <Link className="toBack" to="/catTinder.github.io/">Tagasi avalehele </Link>
  
             </div>
         </div>

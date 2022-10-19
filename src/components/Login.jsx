@@ -26,7 +26,7 @@ export default function Login() {
                     <input type="checkbox" id="autho" name="autho" defaultChecked={true} />
                     <label htmlFor="autho">Mäleta mind</label>
                 </div>
-                <Link  className='searching' to="/Searching"> LOGI SISSE </Link>
+                <Link  className='searching' to="/catTinder.github.io/Searching"> LOGI SISSE </Link>
 
    
 

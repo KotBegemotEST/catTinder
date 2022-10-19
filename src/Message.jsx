@@ -13,8 +13,8 @@ let sendMsg = (msg)=>{
         <div className="pinkBox">
                 <textarea rows="25" cols="25" className="msg" name="message" placeholder="Kirjuta siia oma kiri" />
                 <div className="buttonWrap">
-                    <Link className="button" to="/send">  SAADA KIRI </Link><br />
-                    <Link className="toBack"  to="/Profiil">  Tagasi </Link>
+                    <Link className="button" to="/catTinder.github.io/send">  SAADA KIRI </Link><br />
+                    <Link className="toBack"  to="/catTinder.github.io/Profiil">  Tagasi </Link>
                 </div>
 
 

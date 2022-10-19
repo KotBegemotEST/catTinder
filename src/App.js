@@ -22,13 +22,13 @@ function App() {
     // </div>
 
   <Routes>
-    <Route path="/"   element={<Login/>}/>
-    <Route path="/forgot"  element={<Forgot/>}/>
-    <Route path="/searching"  element={<Searching/>}/>
-    <Route path="/Profiil"  element={<Profiil/>}/>
-    <Route path="/message"  element={<Message/>}/>
-    <Route path="/send"  element={<Sendler/>}/>
-    <Route path="/user"  element={<User/>}/>
+    <Route path="/catTinder.github.io/"   element={<Login/>}/>
+    <Route path="/catTinder.github.io/forgot"  element={<Forgot/>}/>
+    <Route path="/catTinder.github.io/searching"  element={<Searching/>}/>
+    <Route path="/catTinder.github.io/Profiil"  element={<Profiil/>}/>
+    <Route path="/catTinder.github.io/message"  element={<Message/>}/>
+    <Route path="/catTinder.github.io/send"  element={<Sendler/>}/>
+    <Route path="/catTinder.github.io/user"  element={<User/>}/>
   </Routes> 
 
 

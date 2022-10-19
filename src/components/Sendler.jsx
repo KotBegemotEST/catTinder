@@ -11,7 +11,7 @@ let sendMsg = (msg)=>{
     return (
         <div className="pinkBox sendler">
             <span className="box-text">KIRI ON SAADETUD!</span>
-            <Link className="toBack" to="/profiil">  Tagasi </Link>
+            <Link className="toBack" to="/catTinder.github.io/profiil">  Tagasi </Link>
         </div>
     )
 }

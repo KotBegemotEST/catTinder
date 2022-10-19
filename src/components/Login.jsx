@@ -17,7 +17,7 @@ export default function Login() {
             <div className='inputs'>
                 <input type="text" placeholder='Sisesta kasutajanimi' />
                 <input type="text" placeholder='Sisesta parool' />
-                <Link  className='paswd' to="/Forgot"> Unustasin parooli </Link>
+                <Link  className='paswd' to="/catTinder.github.io/Forgot"> Unustasin parooli </Link>
                 {/* <Link to="/Login"> Unustasin parooli </Link>  */}
 
             </div>

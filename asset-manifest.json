@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/catTinder.github.io/static/css/main.839fb722.css",
-    "main.js": "/catTinder.github.io/static/js/main.81446858.js",
+    "main.js": "/catTinder.github.io/static/js/main.723f85f9.js",
     "static/js/787.b21ddab0.chunk.js": "/catTinder.github.io/static/js/787.b21ddab0.chunk.js",
     "static/media/instagram.png": "/catTinder.github.io/static/media/instagram.2ee07ce302acc27d3f42.png",
     "static/media/facebook.png": "/catTinder.github.io/static/media/facebook.7e3f3a96d1d02309b717.png",
     "static/media/profile.png": "/catTinder.github.io/static/media/profile.4e1ff79088184ddd7c59.png",
     "index.html": "/catTinder.github.io/index.html",
     "main.839fb722.css.map": "/catTinder.github.io/static/css/main.839fb722.css.map",
-    "main.81446858.js.map": "/catTinder.github.io/static/js/main.81446858.js.map",
+    "main.723f85f9.js.map": "/catTinder.github.io/static/js/main.723f85f9.js.map",
     "787.b21ddab0.chunk.js.map": "/catTinder.github.io/static/js/787.b21ddab0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.839fb722.css",
-    "static/js/main.81446858.js"
+    "static/js/main.723f85f9.js"
   ]
 }

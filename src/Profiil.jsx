@@ -19,7 +19,7 @@ let sendMsg = (msg)=>{
      Olen kahe aastane ja mul on 
      kaks armastavat vanemat.
             </p>
-                <Link to="/message" className="button">  SAADA KIRI </Link>
+                <Link to="/catTinder.github.io/message" className="button">  SAADA KIRI </Link>
             </div>
             <Link className="toBack"  to="/catTinder.github.io/searching">  Tagasi </Link>
 

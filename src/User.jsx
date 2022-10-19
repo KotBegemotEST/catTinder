@@ -26,7 +26,7 @@ let sendMsg = (msg)=>{
             <p className="stats"><span className="subTitle">Meiliaadress: </span>flycat@hot.ee</p>
             <p className="stats"><span className="subTitle">Phone: </span>5555 5555</p>
 
-                <Link to="/message" className="button">  SAADA KIRI </Link>
+                <Link to="/catTinder.github.io/message" className="button">  SAADA KIRI </Link>
             </div>
         </div>
     )
